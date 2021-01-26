@@ -4,7 +4,7 @@ Basé sur le moteur js PHASER, un jeu de space invaders nettement amélioré.
 
 ##capture d'écran:
 
-[screenshot](./copieEcran.png)
+![screenshot](./copieEcran.png)
 
 ## SCE:
  - ![phaser.io](https://www.phaser.io/phaser3)
