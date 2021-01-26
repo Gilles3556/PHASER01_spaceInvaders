@@ -2,10 +2,11 @@
 
 Basé sur le moteur js PHASER, un jeu de space invaders nettement amélioré.
 
-[copie d'écran](./copieEcran.png)
+##capture d'écran:
+![screenshot](./copieEcran.png)
 
 ## SCE:
- - ![phaser.io]{https://www.phaser.io/phaser3}
+ - ![phaser.io](https://www.phaser.io/phaser3)
  
  - ![games] (https://www.phaser.io/examples/v2/category/games)
 
