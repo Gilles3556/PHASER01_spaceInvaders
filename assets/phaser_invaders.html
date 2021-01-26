@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="css/site.css" rel="stylesheet">
+<link href="css/prism-tomorrow.css" rel="stylesheet">
+<title>PHASER.games: invaders by pndg</title>
+</head>
+<body>
+<div id="phaser-example">
+   <canvas width="800" height="600" 
+           style="display: block; touch-action: none; user-select: none; width: 800px; height: 600px;">
+   </canvas>
+</div>
+<div class="controls">
+  <button id="fullscreen">Full Screen</button> <button id="restart">Restart</button> <label for="scaleMode">scale:</label> <select id="scaleMode">
+    <option value="0">
+      Exact Fit
+    </option>
+    <option selected="selected" value="1">
+      No Scale
+    </option>
+    <option value="2">
+      Show All
+    </option>
+    <option value="3">
+      Resize
+    </option>
+    <option value="4">
+      User Scale
+    </option>
+  </select> <label for="userScale">user scale:</label><select id="userScale">
+    <option>
+      0.25
+    </option>
+    <option>
+      0.5
+    </option>
+    <option>
+      0.75
+    </option>
+    <option selected="selected">
+      1
+    </option>
+    <option>
+      2
+    </option>
+  </select> <label for="rendering">rendering:</label> <select id="rendering">
+    <option selected="selected">
+      auto
+    </option>
+    <option>
+      crisp-edges
+    </option>
+    <option>
+      pixelated
+    </option>
+  </select> <label title="Enlarge the game container (on larger displays)"><input id="bigger" type="checkbox">Bigger</label>
+</div>
+<h1>
+  games/invaders
+</h1>
+<meta content="./" name="loadPath">
+<footer class="footer">
+  <p><a href="https://github.com/samme/phaser-examples-mirror">phaser-examples-mirror</a> is made from <a href="https://github.com/photonstorm/phaser-examples">photonstorm/phaser-examples</a> (<a href="http://opensource.org/licenses/MIT">MIT License</a>).</p>
+  
+  <p>The media files are included without license. Don't use them in commercial games.</p>
+  
+</footer>
+<script>
+  this.loadPath = "./";
+</script>
+<script src="js/phaser.js" defer="defer"></script>
+<script src="js/invaders.js" defer="defer"></script>
+<script src="js/prism.js" defer="defer"></script>
+<script src="js/example.js" defer="defer"></script>
+</body>
+</html>
